@@ -40,6 +40,8 @@ class Navigation extends React.Component {
     onRouteChanged = () => {
         this.setState({ isOpen: !this.state.isOpen });
     }
+    
+    
 
     render(){
         const { collapsed } = this.state;
@@ -76,120 +78,36 @@ class Navigation extends React.Component {
 
                                     <li className="nav-item">
                                         <Link 
-                                            to="#" 
+                                            to="#majutus" 
                                             className="nav-link"
-                                            onClick={this.toggleOpen}
                                         >
                                             Majutus
                                         </Link>
-                                        <ul className={menuClass}>
-                                            <li className="nav-item">
-                                                <NavLink 
-                                                    to="/speakers-1" 
-                                                    className="nav-link"
-                                                    onClick={this.toggleNavbar}
-                                                >
-                                                    Speakers 1
-                                                </NavLink>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <NavLink 
-                                                    to="/speakers-2" 
-                                                    className="nav-link"
-                                                    onClick={this.toggleNavbar}
-                                                >
-                                                    Speakers 2
-                                                </NavLink>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <NavLink 
-                                                    to="/speakers-3" 
-                                                    className="nav-link"
-                                                    onClick={this.toggleNavbar}
-                                                >
-                                                    Speakers 3
-                                                </NavLink>
-                                            </li>
-                                        </ul>
+                    
                                     </li>
 
                                     <li className="nav-item">
                                         <Link 
-                                            to="/schedule-1" 
+                                            to="#ajakava" 
                                             className="nav-link"
-                                            onClick={this.toggleOpen}
                                         >
                                             Ajakava
                                         </Link>
-                                        <ul className={menuClass}>
-                                            <li className="nav-item">
-                                                <NavLink 
-                                                    to="/schedule-1" 
-                                                    className="nav-link" 
-                                                    onClick={this.toggleNavbar}
-                                                >
-                                                    Schedule 1
-                                                </NavLink>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <NavLink 
-                                                    to="/schedule-2" 
-                                                    className="nav-link" 
-                                                    onClick={this.toggleNavbar}
-                                                >
-                                                    Schedule 2
-                                                </NavLink>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <NavLink 
-                                                    to="/schedule-3" 
-                                                    className="nav-link" 
-                                                    onClick={this.toggleNavbar}
-                                                >
-                                                    Schedule 3
-                                                </NavLink>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <NavLink 
-                                                    to="/schedule-4" 
-                                                    className="nav-link" 
-                                                    onClick={this.toggleNavbar}
-                                                >
-                                                    Schedule 4
-                                                </NavLink>
-                                            </li>
-                                            
-                                        </ul>
                                     </li>
-
-
-
                                     <li className="nav-item">
-                                        <NavLink 
-                                            to="/contact" 
-                                            className="nav-link" 
-                                            onClick={this.toggleNavbar}
+                                        <Link 
+                                            to="#kontakt" 
+                                            className="nav-link"
                                         >
                                             Kontakt
-                                        </NavLink>
+                                        </Link>
                                     </li>
                                 </ul>
 
                                 <div className="others-option">
                                     <ul>
                                         <li>
-                                            <NavLink 
-                                                to="/pricing-1" 
-                                                className="btn btn-primary" 
-                                                onClick={this.toggleNavbar}
-                                            >
-                                                Registreeri
-                                            </NavLink>
+                                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>  
                                         </li>
                                     </ul>
                                 </div>

@@ -31,7 +31,7 @@ class EventSchedulesFour extends React.Component {
                             Events
                         </div>
 
-                        <Link to="#" className="btn btn-primary">Registreeri!</Link>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>  
 
                         <div className="bar"></div>
                     </div>

@@ -38,8 +38,8 @@ class AboutOne extends React.Component {
                 <Cta />
                 {/* FunFacts Area */}
                 <FunFact />
-                {/* Pricing Area */}
-                <Partner />
+                {/* Pricing Area 
+                <Partner />*/}
                 {/* Buy Tickets Area */}
                 <BuyTicket />
                 {/* Subscribe Area */}

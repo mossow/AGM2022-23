@@ -68,13 +68,7 @@ class MainBanner extends React.Component {
                                     </ul>
 
                                     <div className="button-box">
-                                        <Link to="#" className="btn btn-primary">Registreeri!</Link>
-                                        <Link 
-                                            onClick={e => {e.preventDefault(); this.openModal()}}
-                                            to="#" 
-                                            className="video-btn popup-youtube"
-                                        >
-                                        </Link>
+                                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>   
                                     </div>
                                 </div>
                             </div>

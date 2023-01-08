@@ -19,7 +19,7 @@ class BuyTicket extends React.Component {
 
                             <div className="col-lg-6">
                                 <div className="buy-ticket-btn">
-                                    <Link to="#" className="btn btn-primary">Registreeri!</Link>
+                                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>  
                                 </div>
                             </div>
                         </div>

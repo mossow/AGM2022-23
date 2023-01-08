@@ -31,7 +31,7 @@ class EventSchedulesFour extends React.Component {
                             Events
                         </div>
 
-                        <Link to="#" className="btn btn-primary">Registreeri!</Link>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>  
 
                         <div className="bar"></div>
                     </div>
@@ -619,21 +619,21 @@ class EventSchedulesFour extends React.Component {
                                                 className="current"
                                             >
                                                 <Link to="#">
-                                                    Esimene päev
+                                                    Reede
                                                     <span>9 Juuni 2023</span>
                                                 </Link>
                                             </li>
             
                                             <li onClick={(e) => this.openTabSection(e, 'tab2')}>
                                                 <Link to="#">
-                                                    Teine päev
+                                                    Laupäev
                                                     <span>10 Juuni 2023</span>
                                                 </Link>
                                             </li>
             
                                             <li onClick={(e) => this.openTabSection(e, 'tab3')}>
                                                 <Link to="#">
-                                                    Kolmas päev
+                                                    Pühapäev
                                                     <span>11 Juuni 2024</span>
                                                 </Link>
                                             </li>

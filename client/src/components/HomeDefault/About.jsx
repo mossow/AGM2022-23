@@ -18,7 +18,7 @@ class About extends React.Component {
 
     render(){
         return (
-            <section className="about-area ptb-120 bg-image">
+            <section id="majutus" className="about-area ptb-120 bg-image">
                 <div className="container">
                     <div className="row h-100 align-items-center">
                         <div className="col-lg-6">
@@ -32,13 +32,9 @@ class About extends React.Component {
                                 <div className="signature">
                                     <img src={require("../../assets/images/signature.png")} alt="signature" />
                                 </div>
-                                
-                                <Link to="https://www.hestiahotels.com/haapsaluspa/" className="btn btn-primary">
-                                    Koduleht 
-                                    <i className="icofont-double-right"></i>
-                                </Link>
+                                <a href='https://hestiahotels.com/haapsaluspa/' target="_blank" rel="noreferrer"  className="btn btn-primary" >Koduleht<i className="icofont-double-right"></i></a>
+                                <a href='https://www.booking.com/hotel/ee/hestia-hotel-haapsalu-spa.et.html' className="btn btn-secondary" >Booking</a>
 
-                                <Link to="www.google.ee" className="btn btn-secondary">Booking</Link>
                             </div>
                         </div>
 

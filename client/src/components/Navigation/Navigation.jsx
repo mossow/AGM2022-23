@@ -76,30 +76,13 @@ class Navigation extends React.Component {
                                     
    
 
-                                    <li className="nav-item">
-                                        <Link 
-                                            to="#majutus" 
-                                            className="nav-link"
-                                        >
-                                            Majutus
-                                        </Link>
-                    
-                                    </li>
-
-                                    <li className="nav-item">
-                                        <Link 
-                                            to="#ajakava" 
-                                            className="nav-link"
-                                        >
-                                            Ajakava
-                                        </Link>
-                                    </li>
+                        
                                     <li className="nav-item">
                                         <Link 
                                             to="#kontakt" 
                                             className="nav-link"
                                         >
-                                            Kontakt
+                                            
                                         </Link>
                                     </li>
                                 </ul>

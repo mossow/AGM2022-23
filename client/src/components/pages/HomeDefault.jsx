@@ -28,28 +28,28 @@ class HomeDefault extends React.Component {
     render(){
         return (
             <React.Fragment>
-                {/* Main Banner */}
+        
                 <MainBanner />
-                {/* About Area */}
+                 {/* 
                 <About />
-                {/* Speakers Area */}
+            
                 <FunFact />
-                {/* Pricing Area */}
+          
                 <EventSchedules />
-                {/* FunFacts Area */}
+              
                 <Pricing />
-                {/* Partner Area */}
+             
                 <Partner /> 
-                {/* Blog Area */}
+          
                 <LatestNews />
-                {/* Buy Tickets Area */}
+           
                 <BuyTicket />
 
 
-                <Footer />
+                <Footer /> */}
 
-                {/* Back Top top */}
-                <GoTop scrollStepInPx="50" delayInMs="16.66" />
+                 Back Top top 
+                <GoTop scrollStepInPx="50" delayInMs="16.66" /> 
             </React.Fragment>
         );
     }

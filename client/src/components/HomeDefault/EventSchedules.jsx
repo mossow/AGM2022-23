@@ -28,7 +28,7 @@ class EventSchedulesFour extends React.Component {
                         <h2>AGMi <b>päevade</b> <br /> ajakava</h2>
 
                         <div className="bg-title lax" data-lax-preset="driftLeft">
-                            Events
+                            Schedule
                         </div>
 
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>  
@@ -45,147 +45,53 @@ class EventSchedulesFour extends React.Component {
                                             <div id="tab1" className="tabs_item">
                                                 <ul className="accordion">
                                                     <li className="accordion-item">
-                                                        <Link className="accordion-title" to="#">
-                                           
-                                                            
+                                                        <Link className="accordion-title" to="#">                    
                                                             <div className="schedule-info">
-                                                                <h3>Registreerimine</h3>
-
+                                                                <h3>Registreerimine & CheckIn</h3>
                                                                 <ul>
                                                                     <li>
-                                                    
                                                                         Hotell Hestia esimesel korrusel
                                                                     </li>
                                                                     <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00 - 15:00
+                                                                        <i className="icofont-wall-clock"></i> 14:30 - 17:00
                                                                     </li>
                                                                 </ul>
                                                             </div>
                                                         </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </li>
 
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">
                                  
                                                             
-                                                           {/* <div className="schedule-info">
-                                                                <h3>....</h3>
-
+                                                        <div className="schedule-info">
+                                                                <h3>Õhtusöök</h3>
                                                                 <ul>
                                                                     <li>
-                                                              
-                                                                       ...
+                                                                        Hestia Hotell Haapsalu Spa restoran
                                                                     </li>
                                                                     <li>
-                                                                       
+                                                                        <i className="icofont-wall-clock"></i> 19:00
                                                                     </li>
                                                                 </ul>
-                                                            </div> */}
-                                                        </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
                                                             </div>
-                                                        </div>
+                                                        </Link>
                                                     </li>
 
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">
-                
-                                                            
-                                                           {/* <div className="schedule-info">
-                                                                <h3>HTML, CSS and Bootstrap Introduction</h3>
-
-                                                                <ul>
-                                                                    <li>
-                                                                        <i className="icofont-user-suited"></i> 
-                                                                        By <span>Brian</span> of USA Inc
-                                                                    </li>
-                                                                    <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
-                                                                    </li>
-                                                                </ul>
-                                                            </div> */}
+                                                            <div className="schedule-info">
+                                                                    <h3>Welcome Party</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                            Hestia Hotell Haapsalu Spa restoran
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 12:00
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
                                                         </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-                                                    <li className="accordion-item">
-                                                        <Link className="accordion-title" to="#">
-                                       
-                                                            
-                                                            {/*<div className="schedule-info">
-                                                                <h3>Digital World Event Information</h3>
-
-                                                                <ul>
-                                                                    <li>
-                                                                        <i className="icofont-user-suited"></i> 
-                                                                        By <span>Roberto</span> of USA Inc
-                                                                    </li>
-                                                                    <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
-                                                                    </li>
-                                                                </ul>
-                                                            </div>*/}
-                                                        </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </li>
                                                 </ul>	
                                             </div>
@@ -194,110 +100,95 @@ class EventSchedulesFour extends React.Component {
                                                 <ul className="accordion">
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">
-                                                     
-                                                            
-                                                           {/* <div className="schedule-info">
-                                                                <h3>Digital Marketing Theory</h3>
-
-                                                                <ul>
-                                                                    <li>
-                                                                        <i className="icofont-user-suited"></i> 
-                                                                        By <span>Steven Smith</span> CEO of EnvyTheme
-                                                                    </li>
-                                                                    <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
-                                                                    </li>
-                                                                </ul>
-                                                        </div>*/}
-                                                        </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
+                                                            <div className="schedule-info">
+                                                                    <h3>Hommikusöök</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                            Hestia Hotell Haapsalu Spa restoran
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 07:30 - 10:00
+                                                                        </li>
+                                                                    </ul>
                                                             </div>
-                                                        </div>
+                                                        </Link>
                                                     </li>
 
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">
-                                                
-                                                            
-                                                           {/* <div className="schedule-info">
-                                                                <h3>Digital World Event Information</h3>
-
-                                                                <ul>
-                                                                    <li>
-                                                                        <i className="icofont-user-suited"></i> 
-                                                                        By <span>Ramon</span> of USA Inc
-                                                                    </li>
-                                                                    <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
-                                                                    </li>
-                                                                </ul>
-                                                    </div>*/}
-                                                        </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
+                                                        <div className="schedule-info">
+                                                                    <h3>RTE koosolek</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                        Kaluri Klubihoone (Kaluri tn 22, 90502 Haapsalu) hotellist 750 meetrit
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 10:00 - 14:00
+                                                                        </li>
+                                                                    </ul>
                                                             </div>
-                                                        </div>
+                                                        </Link>
                                                     </li>
 
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">
-                                               
-                                                            
-                                                           {/* <div className="schedule-info">
-                                                                <h3>HTML, CSS and Bootstrap Introduction</h3>
-
-                                                                <ul>
-                                                                    <li>
-                                                                        <i className="icofont-user-suited"></i> 
-                                                                        By <span>Miles</span> of USA Inc
-                                                                    </li>
-                                                                    <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
-                                                                    </li>
-                                                                </ul>
-                                                </div>*/}
-                                                        </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
+                                                        <div className="schedule-info">
+                                                                    <h3>LCE koosolek</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                        Villa Friedheim (Supeluse 2, 90502 Haapsalu) hotellist 290 meetrit 
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 10:00 - 14:00
+                                                                        </li>
+                                                                    </ul>
                                                             </div>
-                                                        </div>
+                                                        </Link>
+                                                    </li>
+                                                    <li className="accordion-item">
+                                                        <Link className="accordion-title" to="#">
+                                                        <div className="schedule-info">
+                                                                    <h3>Lõuna</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                            Hestia Hotell Haapsalu Spa restoran
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 14:30 - 15:30
+                                                                        </li>
+                                                                    </ul>
+                                                            </div>
+                                                        </Link>
+                                                    </li>
+                                                    <li className="accordion-item">
+                                                        <Link className="accordion-title" to="#">
+                                                        <div className="schedule-info">
+                                                                    <h3>Presidentide vastuvõtt</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                            Hestia Hotell Haapsalu 
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 17:00 - 18:00
+                                                                        </li>
+                                                                    </ul>
+                                                            </div>
+                                                        </Link>
+                                                    </li>
+                                                    <li className="accordion-item">
+                                                        <Link className="accordion-title" to="#">
+                                                        <div className="schedule-info">
+                                                                    <h3>RTE ja LCE Gala</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                        Kaluri Klubihoone (Kaluri tn 22, 90502 Haapsalu) hotellist 750 meetrit 
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 19:00
+                                                                        </li>
+                                                                    </ul>
+                                                            </div>
+                                                        </Link>
                                                     </li>
                                                 </ul>	
                                             </div>
@@ -306,74 +197,26 @@ class EventSchedulesFour extends React.Component {
                                                 <ul className="accordion">
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">
-                                               
-                                                            
-                                                           {/* <div className="schedule-info">
-                                                                <h3>Digital Marketing Theory</h3>
-
-                                                                <ul>
-                                                                    <li>
-                                                                        <i className="icofont-user-suited"></i> 
-                                                                        By <span>Steven Smith</span> CEO of EnvyTheme
-                                                                    </li>
-                                                                    <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
-                                                                    </li>
-                                                                </ul>
-                                            </div>*/}
-                                                        </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
+                                                        <div className="schedule-info">
+                                                                    <h3>Hommikusöök</h3>
+                                                                    <ul>
+                                                                        <li>
+                                                                            Hestia Hotell Haapsalu Spa restoran
+                                                                        </li>
+                                                                        <li>
+                                                                            <i className="icofont-wall-clock"></i> 07:30 - 11:00
+                                                                        </li>
+                                                                    </ul>
                                                             </div>
-                                                        </div>
+                                                        </Link>
                                                     </li>
 
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">
-                                                   
-                                                            
-                                                            {/*<div className="schedule-info">
-                                                                <h3>Digital World Event Information</h3>
-
-                                                                <ul>
-                                                                    <li>
-                                                                        <i className="icofont-user-suited"></i> 
-                                                                        By <span>Nathaniel</span> of USA Inc
-                                                                    </li>
-                                                                    <li>
-                                                                        <i className="icofont-wall-clock"></i> 13:00AM - 20:00PM
-                                                                    </li>
-                                                                </ul>
-                                        </div>*/}
-                                                        </Link>
-                                                        
-                                                        <div className="accordion-content">
-                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Link galley of type and scrambled it to make Link type specimen book.</p>
-
-                                                            <div className="row h-100 align-items-center">
-                                                                <div className="col-lg-6">
-                                                                    <div className="location">
-                                                                        <b>Location:</b> Hall 1, Building C , King Street , <span>USA</span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-6 text-right">
-                                                                    <Link to="#" className="btn btn-primary">View Details</Link>
-                                                                </div>
+                                                        <div className="schedule-info">
+                                                                    <h3>Kojusõit</h3>
                                                             </div>
-                                                        </div>
+                                                        </Link>
                                                     </li>
 
                                             

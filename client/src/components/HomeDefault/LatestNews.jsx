@@ -47,7 +47,7 @@ class LatestNews extends React.Component {
                         <span>Kontaktid!</span>
                         <h2>Võte meiega <b>Ühendust</b></h2>
 
-                        <LaxDiv text="Blog" dataPreset="driftLeft" />
+                        <LaxDiv text="Contact" dataPreset="driftLeft" />
 
 
                         <div className="bar"></div>
@@ -62,7 +62,7 @@ class LatestNews extends React.Component {
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
                                     <div className="blog-image">
-                                        <Link to="/single-blog"><img src={require("../../assets/images/majutus.jpg")} alt="blog" /></Link>
+                                        <Link to="/single-blog"><img src={require("../../assets/images/annika.jpg")} alt="blog" /></Link>
 
                                         <div className="post-tag">
                                         <Link>Majutus</Link>
@@ -70,9 +70,9 @@ class LatestNews extends React.Component {
                                     </div>
 
                                     <div className="blog-post-content">
-                                        <h3>Silver Sarapuu</h3>
-                                        <p><b>Telefon:</b>???</p>
-                                        <p><b>Telefon:</b>???</p>
+                                        <h3>Annika Stüff</h3>
+                                        <p><b>Telefon:</b>+372 5664 7671</p>
+                                        <p><b>Email:</b>annika.styff@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,9 +88,9 @@ class LatestNews extends React.Component {
                                     </div>
 
                                     <div className="blog-post-content">
-                                        <h3> ??? </h3>
-                                        <p><b>Telefon:</b>???</p>
-                                        <p><b>Email:</b>???</p>
+                                        <h3> Silver Sarapuu </h3>
+                                        <p><b>Telefon:</b>+372 5363 5372</p>
+                                        <p><b>Email:</b> silver.sarapuu@rte.ee</p>
                                     </div>
                                 </div>
                             </div>
@@ -107,8 +107,8 @@ class LatestNews extends React.Component {
 
                                     <div className="blog-post-content">
                                         <h3> Peep Bergsten </h3>
-                                        <p><b>Telefon:</b>???</p>
-                                        <p><b>Email:</b>???</p>
+                                        <p><b>Telefon:</b>+372 5696 5885</p>
+                                        <p><b>Email:</b>peep.pergsten@rte.ee</p>
                                     </div>
                                 </div>
                             </div>

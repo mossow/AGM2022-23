@@ -18,13 +18,13 @@ class Pricing extends React.Component {
 
     render(){
         return (
-            <section className="pricing-area ptb-120 bg-image">
+            <section className="pricing-area ptb-120 bg-image" id="pricing">
                 <div className="container">
                     <div className="section-title">
                         <span>Osalustasu</span>
                         <h2> <b>Maksmise</b> info</h2>
                         <p><b>Saaja:</b> Peep Bergstein</p>
-                        <p><b>Konto nr:</b> ???</p>
+                        <p><b>Konto nr:</b> EE777700771008859728</p>
                         <p><b>Selgitus:</b> “AGM 2023” ja inimese (inimeste) nimed</p>
                         <LaxDiv text="Pricing" dataPreset="driftLeft" />
 
@@ -36,7 +36,7 @@ class Pricing extends React.Component {
                             <div className="pricing-table-box">
                                 <div className="pricingTable-header">
                                     <h3 className="title">Aktiivne</h3>
-                                    <div className="price-value"><sup>€</sup>50</div>
+                                    <div className="price-value"><sup>€</sup>65</div>
                                 </div>
                                 
                                 <ul className="pricing-content">
@@ -53,7 +53,7 @@ class Pricing extends React.Component {
                             <div className="pricing-table-box">
                                 <div className="pricingTable-header">
                                     <h3 className="title">RTE </h3>
-                                    <div className="price-value"><sup>€</sup>120</div>
+                                    <div className="price-value"><sup>€</sup>145</div>
                                 </div>
                                 
                                 <ul className="pricing-content">
@@ -69,7 +69,7 @@ class Pricing extends React.Component {
                             <div className="pricing-table-box">
                                 <div className="pricingTable-header">
                                     <h3 className="title">LCE </h3>
-                                    <div className="price-value"><sup>€</sup>100</div>
+                                    <div className="price-value"><sup>€</sup>115</div>
                                 </div>
                                 
                                 <ul className="pricing-content">

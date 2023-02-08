@@ -54,7 +54,8 @@ class Partner extends React.Component {
                     <div className="section-title">
                         <span>Sponsorid!</span>
                         <h2>Tule AGMi <b>Sponsoriks</b></h2>
-
+                        <p><b>Kuld sponsor: </b> Mini sviit (4tk), üllatus hotelli toas, Sinu ettevõtte reklaam üritusel ja kodulehel </p>
+                        <p><b>Platinum sponsor: </b> Ainuke Sviit hotellis,  üllatus hotelli toas,  Sinu ettevõtte reklaam üritusel ja kodulehel, </p>
                         <Link className="btn btn-primary">peep.bergstein@rte.ee</Link>
 
                         <div className="bar"></div>
@@ -69,49 +70,12 @@ class Partner extends React.Component {
                         <OwlCarousel 
                             className="platinum-partner-slides owl-carousel owl-theme"
                             {...options}
-                        >
+                        >   
                             <div className="col-lg-12 col-md-12">
                                 <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/platinum-partner1.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/platinum-partner2.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/platinum-partner3.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
-                                        <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/platinum-partner4.png")} alt="Partner Logo" />
-                                    </Link>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="partner-item">
-                                    <Link to="/sponsors" target="_blank">
+                            
                                         <img src={require("../../assets/images/platinum-partner5.png")} alt="Partner Logo" />
-                                        <img src={require("../../assets/images/platinum-partner5.png")} alt="Partner Logo" />
-                                    </Link>
+
                                 </div>
                             </div>
                         </OwlCarousel>

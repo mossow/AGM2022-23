@@ -11,9 +11,11 @@ class BuyTicket extends React.Component {
                             <div className="col-lg-6">
                                 <div className="section-title">
                                     <span>Welcome night pidu!</span>
-                                    <h2>KIRJELDUS PEO TEEMA KOHTA</h2>
+                                    <h2>Playboy Mansion läbi aegade</h2>
                             
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                                    <p>Kätte on jõudnud jänese/kassi aasta ning tuntud Playboy Mansion on antud teemal kirgi kütnud läbi aastakümnete.</p>
+                                    <p></p>
+                                    <p>  Reedene welcome party võib tulla lihtne , vallatu või täis kuraasi</p>
                                 </div>
                             </div>
 

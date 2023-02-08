@@ -25,15 +25,16 @@ class About extends React.Component {
                             <div className="about-content">
                                 <span>Majutus</span>
                                 <h2>Hestia Hotel Haapsalu SPA</h2>
-                                <p>Majutuse peab iga osaleja broneerima ise ....</p>
+                                <p>Sind ootab idülliline ja armas väikelinn Haapsalu! Jaluta rannapromenaadil, sõida jalgrattaga või paadiga. Tee tutvust vanalinna puitpitsilise arhitektuuriga ja meeleolukate kultuurisündmustega. </p>
+                                <p>Hestia Hotelli tubadest avaneb imeilus vaade merele või rahulikule Sadama tänavale. Toa hinnas sisaldub külluslik hommikusöök, vee- ja saunaspaa piiramatu külastus ning kiire wifi. </p>
                                 
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                
 
                                 <div className="signature">
                                     <img src={require("../../assets/images/signature.png")} alt="signature" />
                                 </div>
                                 <a href='https://hestiahotels.com/haapsaluspa/' target="_blank" rel="noreferrer"  className="btn btn-primary" >Koduleht<i className="icofont-double-right"></i></a>
-                                <a href='https://www.booking.com/hotel/ee/hestia-hotel-haapsalu-spa.et.html' className="btn btn-secondary" >Booking</a>
+                                {/*  <a href='https://www.booking.com/hotel/ee/hestia-hotel-haapsalu-spa.et.html' className="btn btn-secondary" >Booking</a> */}
 
                             </div>
                         </div>

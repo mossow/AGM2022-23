@@ -60,6 +60,7 @@ class MainBanner extends React.Component {
                             <div className="container">
                                 <div className="main-banner-content">
                                     <p>Haapsalu Hestia Hotell</p>
+                                    <p>Kaluri Klubihoone</p>
                                     <h1><span>RTE & LCE</span> <br /> AGM <b>2</b><b>0</b><b>2</b><b>3</b></h1>
 
                                     <ul>
@@ -77,10 +78,10 @@ class MainBanner extends React.Component {
     
                     <div className="event-countdown countdown1">
                         <div id="timer">
-                            <div id="days">{this.state.days} <span>Days</span></div>
-                            <div id="hours">{this.state.hours} <span>Hours</span></div>
-                            <div id="minutes">{this.state.minutes} <span>Minutes</span></div>
-                            <div id="seconds">{this.state.seconds} <span>Seconds</span></div>
+                            <div id="days">{this.state.days} <span>Päeva</span></div>
+                            <div id="hours">{this.state.hours} <span>Tundi</span></div>
+                            <div id="minutes">{this.state.minutes} <span>Minutit</span></div>
+                            <div id="seconds">{this.state.seconds} <span>Sekundit</span></div>
                         </div>
                     </div>
 

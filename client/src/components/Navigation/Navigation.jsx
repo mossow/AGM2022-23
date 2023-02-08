@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, withRouter, NavLink } from 'react-router-dom';
+
 import logo from '../../assets/images/logo.png';
  
 class Navigation extends React.Component {
@@ -41,7 +42,9 @@ class Navigation extends React.Component {
         this.setState({ isOpen: !this.state.isOpen });
     }
     
-    
+
+
+
 
     render(){
         const { collapsed } = this.state;
@@ -72,19 +75,14 @@ class Navigation extends React.Component {
 
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav ms-auto">
-
-                                    
-   
-
-                        
-                                    <li className="nav-item">
+                                <li className="nav-item">
                                         <Link 
-                                            to="#kontakt" 
+                                            to="#pricing" 
                                             className="nav-link"
-                                        >
-                                            
+                                        > 
                                         </Link>
-                                    </li>
+                                    </li>                      
+
                                 </ul>
 
                                 <div className="others-option">

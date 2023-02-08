@@ -30,23 +30,25 @@ class HomeDefault extends React.Component {
             <React.Fragment>
         
                 <MainBanner />
-                 {/* 
+                 {/* kommentaar */}
                 <About />
             
                 <FunFact />
           
                 <EventSchedules />
+
+                <BuyTicket />
               
                 <Pricing />
-             
-                <Partner /> 
+             {/* 
+                <Partner /> */}
           
                 <LatestNews />
            
-                <BuyTicket />
 
 
-                <Footer /> */}
+
+                <Footer /> 
 
                  Back Top top 
                 <GoTop scrollStepInPx="50" delayInMs="16.66" /> 

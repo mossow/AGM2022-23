@@ -37,10 +37,11 @@ class HomeDefault extends React.Component {
           
                 <EventSchedules />
 
-                <BuyTicket />
+             
               
                 <Pricing />
              {/* 
+                <BuyTicket />
                 <Partner /> */}
           
                 <LatestNews />

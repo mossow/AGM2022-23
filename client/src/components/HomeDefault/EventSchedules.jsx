@@ -47,7 +47,7 @@ class EventSchedulesFour extends React.Component {
                                                     <li className="accordion-item">
                                                         <Link className="accordion-title" to="#">                    
                                                             <div className="schedule-info">
-                                                                <h3>Registreerimine & CheckIn</h3>
+                                                                <h3>Registreerimine & Check-In</h3>
                                                                 <ul>
                                                                     <li>
                                                                         Hotell Hestia esimesel korrusel
@@ -87,7 +87,7 @@ class EventSchedulesFour extends React.Component {
                                                                             Hestia Hotell Haapsalu Spa restoran
                                                                         </li>
                                                                         <li>
-                                                                            <i className="icofont-wall-clock"></i> 12:00
+                                                                            <i className="icofont-wall-clock"></i> 20:00
                                                                         </li>
                                                                     </ul>
                                                                 </div>

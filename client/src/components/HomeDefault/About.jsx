@@ -34,7 +34,7 @@ class About extends React.Component {
                                     <img src={require("../../assets/images/signature.png")} alt="signature" />
                                 </div>
                                 <a href='https://hestiahotels.com/haapsaluspa/' target="_blank" rel="noreferrer"  className="btn btn-primary" >Koduleht<i className="icofont-double-right"></i></a>
-                                {/*  <a href='https://www.booking.com/hotel/ee/hestia-hotel-haapsalu-spa.et.html' className="btn btn-secondary" >Booking</a> */}
+                               {/* <a href='https://www.booking.com/hotel/ee/hestia-hotel-haapsalu-spa.et.html' className="btn btn-secondary" >Booking</a> */}
 
                             </div>
                         </div>

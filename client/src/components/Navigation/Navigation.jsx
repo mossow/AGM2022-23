@@ -72,7 +72,7 @@ class Navigation extends React.Component {
                             >
                                 <span className="navbar-toggler-icon"></span>
                             </button>
-
+                            {/* 
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
@@ -92,7 +92,7 @@ class Navigation extends React.Component {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </nav>
                 </div>

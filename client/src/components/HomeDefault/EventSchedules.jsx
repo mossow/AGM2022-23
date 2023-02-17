@@ -30,9 +30,9 @@ class EventSchedulesFour extends React.Component {
                         <div className="bg-title lax" data-lax-preset="driftLeft">
                             Schedule
                         </div>
-
+                          {/* 
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>  
-
+*/} 
                         <div className="bar"></div>
                     </div>
 

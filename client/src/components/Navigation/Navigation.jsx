@@ -60,6 +60,7 @@ class Navigation extends React.Component {
                                 <img src={logo} alt="logo" />
                             </Link>
 
+
                             <button 
                                 onClick={this.toggleNavbar} 
                                 className={classTwo}

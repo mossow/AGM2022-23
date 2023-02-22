@@ -67,10 +67,10 @@ class MainBanner extends React.Component {
                                         <li><i className="icofont-compass"></i>  Sadama 9/11, 90502 Haapsalu</li>
                                         <li><i className="icofont-calendar"></i> 09-11 Juuni, 2023</li>
                                     </ul>
-                                      {/* 
+                                   
                                     <div className="button-box">
                                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSfge2pRd5IfcbDtxn9djnv0HAfzrtA042tFOrFVZHPX4_vTMQ/viewform' className="btn btn-primary">Registreeri</a>   
-                                    </div>*/} 
+                                    </div>
                                 </div>
                             </div>
                         </div>

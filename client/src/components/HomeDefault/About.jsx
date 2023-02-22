@@ -28,7 +28,7 @@ class About extends React.Component {
                           
                                 <p>Hotelli tubadest avaneb imeilus vaade merele või rahulikule Sadama tänavale. Toa hinnas sisaldub külluslik hommikusöök, vee- ja saunaspaa piiramatu külastus ning kiire wifi. </p>
                                 
-                                <p><b>9.aprill</b> - Tubade eelbroneerimine soodushinnaga. Standard tuba kahele 135EUR/öö</p>
+                                <p><b>9.aprill</b> - Tubade eelbroneerimine soodushinnaga ja läbi registreerimise vormi. Standard tuba kahele 135EUR/öö</p>
 
                                 <p><b>10.aprill</b> - Tubade broneerimine tavahinnaga ja avatud kõigile läbi Hestia kodulehe või Booking.com'i</p>
 

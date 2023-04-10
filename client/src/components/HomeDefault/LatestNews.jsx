@@ -62,7 +62,7 @@ class LatestNews extends React.Component {
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
                                     <div className="blog-image">
-                                        <Link to="/single-blog"><img src={require("../../assets/images/annika.jpg")} alt="blog" /></Link>
+                                        <img src={require("../../assets/images/annika.jpg")} alt="blog" />
 
                                         <div className="post-tag">
                                         <Link>Majutus</Link>
@@ -80,7 +80,7 @@ class LatestNews extends React.Component {
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
                                     <div className="blog-image">
-                                        <Link to="/single-blog"><img src={require("../../assets/images/majutus.jpg")} alt="blog" /></Link>
+                                        <img src={require("../../assets/images/majutus.jpg")} alt="blog" />
 
                                         <div className="post-tag">
                                         <Link>Üldine</Link>
@@ -98,7 +98,7 @@ class LatestNews extends React.Component {
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-blog-post">
                                     <div className="blog-image">
-                                        <Link to="/single-blog"><img src={require("../../assets/images/peep.jpg")} alt="blog" /></Link>
+                                        <img src={require("../../assets/images/peep.jpg")} alt="blog" />
 
                                         <div className="post-tag">
                                         <Link>Maksmine</Link>

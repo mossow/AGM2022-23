@@ -28,15 +28,13 @@ class About extends React.Component {
                           
                                 <p>Hotelli tubadest avaneb imeilus vaade merele või rahulikule Sadama tänavale. Toa hinnas sisaldub külluslik hommikusöök, vee- ja saunaspaa piiramatu külastus ning kiire wifi. </p>
                                 
-                                <p><b>9.aprill</b> - Tubade eelbroneerimine soodushinnaga ja läbi registreerimise vormi. Standard tuba kahele 135EUR/öö</p>
-
-                                <p><b>10.aprill</b> - Tubade broneerimine tavahinnaga ja avatud kõigile läbi Hestia kodulehe või Booking.com'i</p>
+                                <p>Broneeri tuba 09-11 Juuniks Hestia kodulehelt või Booking.com's</p>
 
                                 <div className="signature">
                                     <img src={require("../../assets/images/signature.png")} alt="signature" />
                                 </div>
                                 <a href='https://hestiahotels.com/haapsaluspa/' target="_blank" rel="noreferrer"  className="btn btn-primary" >Koduleht<i className="icofont-double-right"></i></a>
-                               {/* <a href='https://www.booking.com/hotel/ee/hestia-hotel-haapsalu-spa.et.html' className="btn btn-secondary" >Booking</a> */}
+                               <a href='https://www.booking.com/hotel/ee/hestia-hotel-haapsalu-spa.et.html' className="btn btn-secondary" >Booking</a> 
 
                             </div>
                         </div>

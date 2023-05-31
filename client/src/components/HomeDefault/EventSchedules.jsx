@@ -166,10 +166,10 @@ class EventSchedulesFour extends React.Component {
                                                                     <h3>Presidentide vastuvõtt</h3>
                                                                     <ul>
                                                                         <li>
-                                                                            Hestia Hotell Haapsalu 
+                                                                        Kaluri Klubihoone
                                                                         </li>
                                                                         <li>
-                                                                            <i className="icofont-wall-clock"></i> 17:00 - 18:00
+                                                                            <i className="icofont-wall-clock"></i> 18:00 - 18:40
                                                                         </li>
                                                                     </ul>
                                                             </div>

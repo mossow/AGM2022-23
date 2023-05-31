@@ -53,7 +53,7 @@ class EventSchedulesFour extends React.Component {
                                                                         Hotell Hestia esimesel korrusel
                                                                     </li>
                                                                     <li>
-                                                                        <i className="icofont-wall-clock"></i> 14:30 - 17:00
+                                                                        <i className="icofont-wall-clock"></i> 15:00 - 17:00
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -107,7 +107,7 @@ class EventSchedulesFour extends React.Component {
                                                                             Hestia Hotell Haapsalu Spa restoran
                                                                         </li>
                                                                         <li>
-                                                                            <i className="icofont-wall-clock"></i> 07:30 - 10:00
+                                                                            <i className="icofont-wall-clock"></i> 07:30 - 11:00
                                                                         </li>
                                                                     </ul>
                                                             </div>
